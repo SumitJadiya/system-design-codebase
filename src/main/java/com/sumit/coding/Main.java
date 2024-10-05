@@ -1,4 +1,4 @@
-package org.stj.coding;
+package com.sumit.coding;
 
 public class Main {
     public static void main(String[] args) {
