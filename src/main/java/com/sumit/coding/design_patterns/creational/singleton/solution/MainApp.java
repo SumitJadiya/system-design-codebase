@@ -11,7 +11,7 @@ public class MainApp {
 
         System.out.println(config1.equals(config2)); // true
 
-        System.out.println(config1.getConfiguration());
-        System.out.println(config2.getConfiguration());
+        System.out.println(config1.hashCode());
+        System.out.println(config2.hashCode());
     }
 }

@@ -11,10 +11,10 @@ public class MainApp {
         System.out.println(config2.equals(config3)); // false
         System.out.println(config3.equals(config4)); // false
 
-        System.out.println(config1.getConfiguration());
-        System.out.println(config2.getConfiguration());
-        System.out.println(config3.getConfiguration());
-        System.out.println(config4.getConfiguration());
+        System.out.println(config1.hashCode());
+        System.out.println(config2.hashCode());
+        System.out.println(config3.hashCode());
+        System.out.println(config4.hashCode());
     }
 }
 

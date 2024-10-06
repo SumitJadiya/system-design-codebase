@@ -1,11 +1,14 @@
 package com.sumit.coding.design_patterns.creational.singleton.solution;
 
+import lombok.Getter;
+
 /**
  * Class that implements Singleton design Pattern
  */
+@Getter
 public class ConfigurationManager {
     private static ConfigurationManager instance;
-    private String configuration;
+    private final String configuration;
 
     // Private constructor prevents instantiation from outside the class
     private ConfigurationManager() {
@@ -26,9 +29,5 @@ public class ConfigurationManager {
             }
         }
         return instance;
-    }
-
-    public String getConfiguration() {
-        return configuration;
     }
 }
