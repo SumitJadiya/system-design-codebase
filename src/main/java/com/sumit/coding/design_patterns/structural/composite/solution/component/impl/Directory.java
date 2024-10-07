@@ -1,4 +1,4 @@
-package com.sumit.coding.design_patterns.structural.composite.solution.model;
+package com.sumit.coding.design_patterns.structural.composite.solution.component.impl;
 
 import com.sumit.coding.design_patterns.structural.composite.solution.component.FileSystemComponent;
 
