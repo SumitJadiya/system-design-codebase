@@ -4,6 +4,17 @@ import com.sumit.coding.design_patterns.structural.adapter.solution.adapter.Plug
 import com.sumit.coding.design_patterns.structural.adapter.solution.model.FlatPlugSocket;
 import com.sumit.coding.design_patterns.structural.adapter.solution.model.RoundPlug;
 
+/*
+ * The Adapter Design Pattern is a structural design pattern that allows objects with incompatible interfaces to work together.
+ * It’s often used to make existing classes work with others without modifying their source code.
+ *
+ * Key Components:
+ *
+ *	1.	Target: This is the interface that the client expects to use.
+ *	2.	Adaptee: The existing class with an incompatible interface that needs to be adapted.
+ *	3.	Adapter: A class that implements the Target interface and translates the calls to the Adaptee methods.
+ *
+ * */
 public class MainClass {
 
     public static void main(String[] args) {
