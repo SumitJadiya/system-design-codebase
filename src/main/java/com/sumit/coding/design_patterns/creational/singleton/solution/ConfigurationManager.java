@@ -17,7 +17,7 @@ public class ConfigurationManager {
     }
 
     /**
-     * @return object using lazy initialization
+     * @return object using lazy initialization after double locking
      */
     static ConfigurationManager getInstance() {
 
